@@ -1,0 +1,93 @@
+
+/* =============================================  CRUD Add Start =============================================================== */
+
+.crud-add{
+    background: lightskyblue;
+    color: black;
+    border: 1px solid black;
+    padding: 12px 20px;
+    width: 50%;
+    height: 300px;
+    box-sizing: border-box;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 4px;  
+    border-collapse: collapse;  
+}
+
+
+
+
+input[type=text] {
+    width: 100%;
+    border-radius: 4px;
+    transition: 0.5s;
+    outline: none;
+    padding: 4px 6px;
+    display: inline-block;
+
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+.button{
+    float: right;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 7px #999;
+    
+}
+
+.button:hover {
+    background-color: #3e8e41
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/* =============================================  CRUD Add End ================================================================== */
+
+/* =============================================  CRUD List Start =============================================================== */
+
+.crud-list{
+    border-collapse: collapse;
+    color: black;
+    border: 1px solid black;
+    width: 1400px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    overflow-x:auto;
+    margin: auto;
+    
+}
+
+table.list{
+    width:100%;
+}
+
+th{
+    font-size: 25px;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+   
+}
+
+tr:nth-child(even),table.list >tr {
+    background-color: #dddddd;
+}
+
+/* =============================================  CRUD List End =============================================================== */
