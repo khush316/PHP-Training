@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Format</title>
+    <link rel="stylesheet" href="day 1.css">
+</head>
+<body>
+    <h1><center>CRUD Format in HTML</center></h1>
+
+    <hr>
+
+    <div class="crud-add">
+       <form action="">
+            <div>
+                <label for="fullname">Full Name*</label>
+                <input type="text" name="fullname" id="fullname" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="email">Email*</label>
+                <input type="text" name="email" id="email" required>
+            </div>
+
+            <br>
+
+            <div> 
+                <label for="city">City*</label>
+                <input type="text" name="city" id="city" required>
+            </div>
+
+            <br>
+
+            <button class="button">Submit</button>  
+        </form>
+    </div>
+    
+    <br>
+
+    <div class="crud-list">
+        <table class="list" id="employeeList">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Full Name</th>
+                    <th>Email</th>
+                    <th>City</th>
+                    
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Abc Xyz</td>
+                    <td>abc@gmail.com</td>
+                    <td>Ahmedabad</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>My Name</td>
+                    <td>myname@gmail.com</td>
+                    <td>Surat</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Your Name</td>
+                    <td>yourname@gmail.com</td>
+                    <td>Banglore</td>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    
+</body>
+</html>
